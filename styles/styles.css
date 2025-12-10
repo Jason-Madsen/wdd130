@@ -28,7 +28,7 @@ img {
 
 body {
   display: block;
-  background-image: url(./images/Big\ Background.png);
+  background-image: url(/images/Big\ Background.png);
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
   font-family: "Exo 2";
 }
@@ -50,7 +50,7 @@ header {
 }
 
 .mainh1 {
-  background-image: url("./images/Heroimage.jpg");
+  background-image: url("/images/Heroimage.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .wwr {
-  background-image: url("./images/WWR\ Image.jpg");
+  background-image: url("/images/WWR\ Image.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .ice {
-  background-image: url("./images/About\ Me\ Image.jpg");
+  background-image: url("/images/About\ Me\ Image.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -233,7 +233,7 @@ table.darkTable thead th:first-child {
 }
 
 #about {
-  background-image: url("./images/ICE\ Image.jpg");
+  background-image: url("/images/ICE\ Image.jpg");
   background-size: cover;
   background-position: center;
   flex: 1;
@@ -389,7 +389,7 @@ footer {
 
 #prophet {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./ice/prophet_cards/images/russell_nelson.png);
+    url(/ice/prophet_cards/images/russell_nelson.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -407,7 +407,7 @@ footer {
 
 #apostle {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Screenshot\ 2025-11-06\ 131750.png);
+    url(/images/Screenshot\ 2025-11-06\ 131750.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,7 +425,7 @@ footer {
 
 #halloween {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Halloween\ Site.png);
+    url(/images/Halloween\ Site.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -443,7 +443,7 @@ footer {
 
 #favdevo {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Devo.png);
+    url(/images/Devo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -461,7 +461,7 @@ footer {
 
 #gflags {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Flags.png);
+    url(/images/Flags.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -479,7 +479,7 @@ footer {
 
 #positions {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Positioning.png);
+    url(/images/Positioning.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -497,7 +497,7 @@ footer {
 
 #jgallery {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Gallery.png);
+    url(/images/Gallery.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
