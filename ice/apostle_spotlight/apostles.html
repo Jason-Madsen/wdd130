@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+         .first_presidency {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            align-items: flex-end;
+        }
+        .card {
+            background-image: url('images/christus.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 2000px;
+            max-height: 1000px;
+            min-width: 500px;
+            margin: auto;
+            padding: 20px;
+            margin: 40px;
+            border: 10px solid black;
+            border-radius: 65px;
+            text-shadow: 0 0 10px gold;
+        }
+       
+        .Grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 25px;
+            justify-content: center;
+        }
+        .apostle {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 10px solid white;
+            object-position: top;
+
+        }
+        .frstP {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 500px;
+            border: 10px solid white;
+            object-position: top;
+        }
+        .presi {
+            height: 140px;
+            width: 140px;
+        }
+        .apostle:hover, .frstP:hover, .presi:hover {
+            border: 10px solid gold;
+            box-shadow: 0 0 10px white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div><h1>First Presidency</h1></div>
+        <div class="first_presidency">
+            <img class="frstP" src="images/oaks.webp" alt="">
+            <img class="frstP presi" src="images/nelson.webp" alt="">
+            <img class="frstP" src="images/eyring.webp" alt="">
+        </div>
+        <div class="Q12">
+                <h2>Quorum of the Twelve Apostles</h2>
+        </div>
+        <div class="Grid-container">
+                <img class="apostle" src="images/holland.webp" alt="">
+                <img class="apostle" src="images/uchtdorf.webp" alt="">
+                <img class="apostle" src="images/bednar.webp" alt="">
+                <img class="apostle" src="images/cook.webp" alt="">
+                <img class="apostle" src="images/christofferson.webp" alt="">
+                <img class="apostle" src="images/anderson.webp" alt="">
+                <img class="apostle" src="images/rasband.webp" alt="">
+                <img class="apostle" src="images/stevenson.webp" alt="">
+                <img class="apostle" src="images/renlund.webp" alt=""> 
+                <img class="apostle" src="images/gong.webp" alt="">
+                <img class="apostle" src="images/soares.webp" alt="">
+                <img class="apostle" src="images/kearon.webp" alt="">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
