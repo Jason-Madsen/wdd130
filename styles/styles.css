@@ -233,7 +233,7 @@ table.darkTable thead th:first-child {
 }
 
 #about {
-  background-image: url("/images/ICE\ Image.jpg");
+  background-image: url("../images/ICE\ Image.jpg");
   background-size: cover;
   background-position: center;
   flex: 1;
