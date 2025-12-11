@@ -39,6 +39,11 @@ header {
   display: flex;
   background: #2b2c2e;
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: height 0.3s ease;
+  height: 100%;
 }
 
 .logo {
@@ -76,7 +81,7 @@ nav {
   background-color: #2b2c2e;
   text-align: center;
   justify-content: space-evenly;
-  padding-top: 20px;
+  align-items: center;
 }
 
 nav a {
@@ -230,6 +235,11 @@ table.darkTable thead th:first-child {
 #tableh2 {
   text-align: center;
   color: #b9b9b8;
+}
+
+#table a {
+  /* text-decoration: none; */
+  color: #e6e6e6;
 }
 
 #about {
@@ -513,6 +523,51 @@ footer {
   filter: brightness(1.1);
 }
 
+#report h2 {
+  color: #b9b9b8;
+  font-size: 35px;
+  margin-left: 20px;
+  text-decoration: underline 2px #bc2b2d;
+}
+
+.individual-reports {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #bc2b2d 0px 0px 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.individual-reports h3 {
+  color: #bc2b2d;
+  border: 2px solid #b9b9b8;
+  padding: 5px;
+  font-size: 30px;
+  box-shadow: #b9b9b8 0px 0px 5px;
+  border-radius: 10px;
+
+}
+
+.individual-reports p {
+  color: #e6e6e6;
+  text-indent: 25px;
+  line-height: 150%;
+  font-size: 20px;
+  
+}
+
+.individual-reports a {
+  color: #bc2b2d;
+  margin-right: auto;
+  font-size: 18px;
+  font-style: italic;
+}
 @media (max-width: 745px) {
   main {
     display: block;
